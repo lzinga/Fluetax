@@ -1,7 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/lzinga/Fluetax</RepositoryUrl>
+    <Authors>Lucas Elzinga</Authors>
+    <Company>Lzinga</Company>
+    <PackageProjectUrl>https://github.com/lzinga/Fluetax</PackageProjectUrl>
+    <Version>0.0.0</Version>
+    <Copyright>https://github.com/lzinga/Fluetax/blob/main/LICENSE</Copyright>
+    <Description>A C# Fluent control on the Roslyn syntax builder.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    
+    
   </PropertyGroup>
 
   <ItemGroup>
